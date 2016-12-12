@@ -10,7 +10,7 @@ from .axelrod_first import (Davis, RevisedDowning, Feld, Grofman, Nydegger,
                             Joss, Shubik, Tullock, UnnamedStrategy)
 from .axelrod_second import Champion, Eatherley, Tester
 from .backstabber import BackStabber, DoubleCrosser
-from .better_and_better import BetterAndBetter
+from .better_and_better import (BetterAndBetter, KnowledgeableBetterAndBetter)
 from .calculator import Calculator
 from .cooperator import Cooperator, TrickyCooperator
 from .cycler import (
@@ -151,6 +151,7 @@ all_strategies = [
     Inverse,
     InversePunisher,
     Joss,
+    KnowledgeableBetterAndBetter,
     KnowledgeableWorseAndWorse,
     LimitedRetaliate,
     LimitedRetaliate2,

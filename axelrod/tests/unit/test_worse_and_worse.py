@@ -57,7 +57,7 @@ class TestWorseAndWorse(TestPlayer):
                                         ('D', 'C')])
 
 
-class TestWorseAndWorseRandom(TestPlayer):
+class TestKnowledgeableWorseAndWorse(TestPlayer):
 
     name = "Knowledgeable Worse and Worse"
     player = axelrod.KnowledgeableWorseAndWorse
